@@ -1,0 +1,193 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#container{
+    width: 900px;
+    margin: 0px auto;
+
+}
+
+/*--------------Header--------------*/
+header{
+    text-align: center;
+}
+
+header > h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.orange{
+    color:#ea6628;
+}
+
+.menu > li{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5;
+    
+}
+
+.menu a:link, a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+
+.menu a:hover{
+    color: #666;
+} 
+
+.menu a:active{
+    text-decoration: none;
+    color:black;
+}
+
+#activo{
+    font-size: 19px;
+}
+
+
+/*--------------Container--------------*/
+h1{
+    font-weight: lighter;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+.center{
+    text-align: center;
+}
+
+a:link, a:visited.texto{
+    text-decoration: none;
+    color:#0066cc;
+}
+
+a:hover.texto{
+    text-decoration: underline;
+} 
+
+a:active.texto{
+    text-decoration: none;
+    color:#0066cc;
+}
+
+.quote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.red{
+    color:red;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+.tlist >li{
+    list-style-type: disc;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
+.tbold{
+    font-weight: bold;
+}
+
+dl{
+    line-height: 3;
+}
+
+dt{
+    color: #ea6628;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+dd{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.anidada1 > li{
+    font-weight: normal;
+    list-style-image: url('../img/book.png');
+    font-size: 18px;
+    line-height: 2;
+    
+}
+
+.anidada2 > li{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    list-style-type: circle;
+}
+
+
+/*--------------Img & videos--------------*/
+.video{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+figure{
+    text-align: center;
+    padding-top: 14px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 10px;
+    height: 16px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+
+/*--------------Footer--------------*/
+footer{
+        background: #91d3c5;
+        color: black;
+        height: 150px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+}
+
+.small{
+    font-size: 11px;
+}
+
+
+a:link, a:visited.linkf{
+        text-decoration: none;
+        color:#167763;
+        }
+
+a:hover.linkf{
+    text-decoration: underline;
+} 
+
+a:active.linkf{
+    text-decoration: none;
+    color: #167763;
+}
